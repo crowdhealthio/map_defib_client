@@ -1,0 +1,49 @@
+html {
+	font-family: 'Roboto Slab';
+	font-size:1.2em;
+	font-weight:400;
+}
+
+* {box-sizing: border-box}
+
+h1 {
+	font-size:3em;
+	margin:0.3em 0;
+}
+
+#container {
+	width:40%;
+	margin:0 auto;
+}
+
+.searchrow {
+	font-size:2em;
+	margin:0.3em 0;
+	
+	* {
+		font-size:inherit;
+	}
+	#search {
+		width:75%;
+		margin:0 2.5%
+	}
+	button {
+		width:10%;
+	}
+}
+
+.result {
+	margin-bottom:1em;
+	.title {
+		font-size:1.6em;
+		font-weight:700;
+	}
+	img {
+		float:right;
+	}
+	&:after {
+	    content:"";
+	    display:table;
+	    clear:both;
+	}
+}
